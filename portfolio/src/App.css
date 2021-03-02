@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
   --primary-white: #fff;
@@ -174,4 +175,30 @@ nav ul li {
   height: 100vh;
   width: 100vh;
   z-index: 1;
+}
+
+/******About Me*******/
+
+.margin-a {
+  margin-left: 24rem;
+  margin-top: 4rem;
+}
+
+.margin-b {
+  margin-top: 4rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-blue);
+}
+
+.margin-c {
+  margin-right: 25rem;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
+.rounded-circle {
+  width: 15rem;
+  height: 19.95rem;
 }
