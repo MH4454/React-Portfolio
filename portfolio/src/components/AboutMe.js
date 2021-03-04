@@ -1,17 +1,17 @@
 import React from 'react'
-import Selfie from "../Selfie.jpg"
+import Selfie from "../assets/images/Selfie.jpg"
 
 const AboutMe = () => {
     return (
-    <div id="about-me" className="container-fluid">
-        <div className="row">
-            <div className="col-sm-6 my-col">
-                <div className="selfie-margin">
-                    <img src={Selfie} className="rounded-circle" alt="Selfie"></img>
-                </div>
+    <div className="container-fluid">
+        <div className="row mt-5 mb-5">
+            <div className="col-sm-12 col-lg-6">
+            
+             <img src={Selfie} className="rounded-circle mx-auto d-block" alt="Selfie"></img>
+                
             </div>
-            <div className="col-sm-6">
-            <h2 className="title-margin">ABOUT ME</h2>
+            <div className="col-sm-12 col-lg-6">
+            <h2 className="title-margin" id="aboutme">ABOUT ME</h2>
                 <p className="p-margin text-center">Hello. Im Michael its nice to meet you.</p>
                 <p className="p-margin">I am a full stack developer that is always looking to enhance my skills.
                     I take pride in my web applications and will make sure that my work is both functional and aesthetically pleasing. I can develop Web-apps, Landing Pages, Business Websites, and up-coming skill E-commerce.
