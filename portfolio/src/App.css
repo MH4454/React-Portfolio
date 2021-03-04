@@ -6,6 +6,7 @@
   --primary-blue: #3d7cb2;
   --primary-dark: rgba(255,255,255,0);
   --primary-red: #5ea2dd;
+  --primary-gray: rgba(220, 220, 220);
 }
 
 body {
@@ -52,19 +53,43 @@ body {
   }
 }
 
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  nav {
+  height: 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    height: 6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  nav {
+    height: 6rem;
+  }
+}
+
 /******Navbar*******/
 
-/* X-Small devices (portrait phones) */
-
-
-
-.logo {
+.nav-logo {
   width: 06.25rem;
 }
 
 nav {
   z-index: 2;
-  height: 5rem;
+  height: 8rem;
 }
 
 /*Menu Links*/
@@ -177,9 +202,9 @@ nav ul li {
   height: 19.95rem;
 }
 
-/******Services*******/
+/******Projects*******/
 .grey {
-background-color: rgb(220, 220, 220);
+background-color: var(--primary-gray);
 }
 
 .project-title {
@@ -190,4 +215,17 @@ background-color: rgb(220, 220, 220);
 .c-s {
   background-color: var(--primary-blue) !important;
   color: var(--primary-white) !important;
+}
+
+/******Technologies*******/
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 0 !important;
+  display: inline-block !important;
+}
+
+.inline-block {
+  display: inline-block;
 }
