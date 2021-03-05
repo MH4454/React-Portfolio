@@ -3,6 +3,7 @@ import logo from "../assets/images/mh-logo.png"
 // React FontAwesome Import
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -16,22 +17,22 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link text-white" aria-current="page" href="#">Home</a>
+                <Link to="/" className="nav-link text-white">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#aboutme">about me</a>
+                <Link to="/#aboutme" className="nav-link text-white">About me</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#projects">Projects</a>
+                <Link to="/" className="nav-link text-white">Projects</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#technologies">Technologies</a>
+                <Link to="/" className="nav-link text-white">Technologies</Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-white" href="#">Resume</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#contact">contact</a>
+                <Link to="/contact" className="nav-link text-white">Contact</Link>
                 </li>
               </ul>
             </div>

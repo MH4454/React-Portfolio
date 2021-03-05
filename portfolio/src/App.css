@@ -255,3 +255,11 @@ background-color: var(--primary-gray);
   height: 5rem;
   width: 6.5rem;
 }
+
+/******ContactForm*******/
+
+.ContactForm {
+  margin-top: 7rem !important;
+  padding-top: 15rem !important;
+  padding-bottom: 35rem !important;
+}
