@@ -73,11 +73,17 @@ body {
   nav {
     height: 6rem;
   }
+  .weather {
+    height: 15.3125rem;
+  }
 }
 
 @media (min-width: 1400px) {
   nav {
     height: 6rem;
+  }
+  .weather {
+    height: 21.25rem;
   }
 }
 
@@ -207,6 +213,8 @@ nav ul li {
 background-color: var(--primary-gray);
 }
 
+
+
 .project-title {
   color: var(--primary-blue);
   font-family: 'Open Sans', sans-serif;
@@ -215,6 +223,7 @@ background-color: var(--primary-gray);
 .c-s {
   background-color: var(--primary-blue) !important;
   color: var(--primary-white) !important;
+  margin-left: 60% !important;
 }
 
 /******Technologies*******/
@@ -228,4 +237,21 @@ background-color: var(--primary-gray);
 
 .inline-block {
   display: inline-block;
+}
+
+/******Contact*******/
+
+.linkedin-logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.github-logo {
+  height: 7rem;
+  width: 7rem;
+}
+
+.gmail-logo {
+  height: 5rem;
+  width: 6.5rem;
 }

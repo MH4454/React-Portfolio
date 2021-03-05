@@ -9,16 +9,16 @@ import readmeDemo from "../assets/images/readme-demo.gif";
 const Projects = () => {
     return (
         <>
-        <div className="container-fluid grey">
+        <div className="container-fluid grey mt-5 pt-5">
             <div className="row pb-5">
                 <div className="col-12">
-                    <h1 className="text-center project-title" id="projects" >My Projects</h1>
+                    <h1 className="text-center project-title"  >My Projects</h1>
                 </div>
             </div>
         </div>
         <div className="container-fluid grey">
             <div className="row">
-                <div className="container col-12 col-lg-4 col-md-6 col-sm-12">
+                <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                     <div>
                         <img src={noteTakerDemo} className="card-img-top" alt="Note taking web-app demo"></img>
                         <div className="card-body grey">
@@ -28,7 +28,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container col-12 col-lg-4 col-md-6 col-sm-12">
+                <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                 <div>
                         <img src={codingQuizDemo} className="card-img-top" alt="Coding Quiz web-app demo"></img>
                         <div className="card-body grey">
@@ -38,7 +38,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container col-12 col-lg-4 col-md-6 col-sm-12">
+                <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                 <div>
                         <img src={emeDemo} className="card-img-top" alt="eme demo"></img>
                         <div className="card-body grey">
@@ -48,7 +48,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container col-12 col-lg-4 col-md-6 col-sm-12"><div>
+                <div className="col-12 col-lg-4 col-md-6 col-sm-12"><div>
                         <img src={readmeDemo} className="card-img-top" alt="Readme Generator demo"></img>
                         <div className="card-body grey">
                             <h5 className="card-title">Readme Generator</h5>
@@ -56,9 +56,9 @@ const Projects = () => {
                             <a href="https://github.com/MH4454/Readme_Generator" target="_blank" className="btn c-s">Visit this Repository</a>
                         </div>
                     </div></div>
-                <div className="container col-12 col-lg-4 col-md-6 col-sm-12">
+                <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                 <div>
-                        <img src={weatherDashboardDemo} className="card-img-top" alt="Weather Dashboard demo"></img>
+                        <img src={weatherDashboardDemo} className="card-img-top weather" alt="Weather Dashboard demo"></img>
                         <div className="card-body grey">
                             <h5 className="card-title">Weather Dashboard</h5>
                             <p className="card-text">If you need to tell what weather it is like in a certain area, try my weather dashboard, so you won't be stuck in the rain</p>
@@ -66,12 +66,12 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container col-12 col-lg-4 col-md-6 col-sm-12"><div>
+                <div className="col-12 col-lg-4 col-md-6 col-sm-12"><div>
                         <img src={passwordDemo} className="card-img-top" alt="Password Generator demo"></img>
                         <div className="card-body grey">
-                            <h5 className="card-title">Password Generator</h5>
+                            <h5 className="card-title" id="technologies">Password Generator</h5>
                             <p className="card-text">Allows users to generate passwords base on the specifications that they provide.</p>
-                            <a href="https://github.com/MH4454/Password-Generator" target="_blank" className="btn c-s">Visit this Repository</a>
+                            <a href="https://github.com/MH4454/Password-Generator" target="_blank" className="btn c-s" >Visit this Repository</a>
                         </div>
                     </div></div>
             </div>

@@ -11,7 +11,7 @@ import PWA from "../assets/images/PWA-logo.png"
 const Technologies = () => {
     return (
     <>
-        <div id="technologies" className="container-fluid pt-3 pb-3">
+        <div  className="container-fluid pt-5 pb-5">
             <h2 className="text-center">Technologies</h2>
         </div>
         <div className="container-fluid">
@@ -34,7 +34,7 @@ const Technologies = () => {
                 </div>
             </div>
         </div>
-        <div className="container-fluid pt-3">
+        <div className="container-fluid pt-5 pb-5 mt-5 mb-5">
             <div classNameName="row logo">
                 <div className="col-lg-3 col-md-4 col-sm-6 text-center inline-block">
                     <img src={PWA} className="logo" alt="PWA logo"></img>
