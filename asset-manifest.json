@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/michaelsportfolio/static/css/main.7264e356.chunk.css",
+    "main.js": "/michaelsportfolio/static/js/main.462dea05.chunk.js",
+    "main.js.map": "/michaelsportfolio/static/js/main.462dea05.chunk.js.map",
+    "runtime-main.js": "/michaelsportfolio/static/js/runtime-main.cd5a35c0.js",
+    "runtime-main.js.map": "/michaelsportfolio/static/js/runtime-main.cd5a35c0.js.map",
+    "static/css/2.2b1a39db.chunk.css": "/michaelsportfolio/static/css/2.2b1a39db.chunk.css",
+    "static/js/2.502a03be.chunk.js": "/michaelsportfolio/static/js/2.502a03be.chunk.js",
+    "static/js/2.502a03be.chunk.js.map": "/michaelsportfolio/static/js/2.502a03be.chunk.js.map",
+    "static/js/3.edc91efd.chunk.js": "/michaelsportfolio/static/js/3.edc91efd.chunk.js",
+    "static/js/3.edc91efd.chunk.js.map": "/michaelsportfolio/static/js/3.edc91efd.chunk.js.map",
+    "index.html": "/michaelsportfolio/index.html",
+    "static/css/2.2b1a39db.chunk.css.map": "/michaelsportfolio/static/css/2.2b1a39db.chunk.css.map",
+    "static/css/main.7264e356.chunk.css.map": "/michaelsportfolio/static/css/main.7264e356.chunk.css.map",
+    "static/js/2.502a03be.chunk.js.LICENSE.txt": "/michaelsportfolio/static/js/2.502a03be.chunk.js.LICENSE.txt",
+    "static/media/CodingQuizdemo.1d968f13.gif": "/michaelsportfolio/static/media/CodingQuizdemo.1d968f13.gif",
+    "static/media/EME-Demo.66b510fe.gif": "/michaelsportfolio/static/media/EME-Demo.66b510fe.gif",
+    "static/media/NodeJS-logo.e72b3ad9.jpeg": "/michaelsportfolio/static/media/NodeJS-logo.e72b3ad9.jpeg",
+    "static/media/App.css": "/michaelsportfolio/static/media/Portfolio-background.16acefa8.jpg",
+    "static/media/Selfie.4e4bcdf8.jpg": "/michaelsportfolio/static/media/Selfie.4e4bcdf8.jpg",
+    "static/media/Weather_Dashboard_Demo.8afa625e.gif": "/michaelsportfolio/static/media/Weather_Dashboard_Demo.8afa625e.gif",
+    "static/media/css-logo.7ceccfbc.png": "/michaelsportfolio/static/media/css-logo.7ceccfbc.png",
+    "static/media/github-icon.69ffd9cd.png": "/michaelsportfolio/static/media/github-icon.69ffd9cd.png",
+    "static/media/gmailcon.ab71b698.png": "/michaelsportfolio/static/media/gmailcon.ab71b698.png",
+    "static/media/mh-logo.dc66d87d.png": "/michaelsportfolio/static/media/mh-logo.dc66d87d.png",
+    "static/media/mongo-logo.81169275.jpg": "/michaelsportfolio/static/media/mongo-logo.81169275.jpg",
+    "static/media/mysql-logo.10680294.png": "/michaelsportfolio/static/media/mysql-logo.10680294.png",
+    "static/media/notetakerdemo.98caef31.gif": "/michaelsportfolio/static/media/notetakerdemo.98caef31.gif",
+    "static/media/password-demo.92131565.gif": "/michaelsportfolio/static/media/password-demo.92131565.gif",
+    "static/media/react-logo.80045de7.png": "/michaelsportfolio/static/media/react-logo.80045de7.png",
+    "static/media/readme-demo.f90985d4.gif": "/michaelsportfolio/static/media/readme-demo.f90985d4.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd5a35c0.js",
+    "static/css/2.2b1a39db.chunk.css",
+    "static/js/2.502a03be.chunk.js",
+    "static/css/main.7264e356.chunk.css",
+    "static/js/main.462dea05.chunk.js"
+  ]
+}
