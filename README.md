@@ -22,6 +22,7 @@ After you had installed the dependencies, open the terminal and run the followin
 
 ## Technologies:
 * React
+* React Router
 * React-fontawesome
 * React-Particles
 * React-Typed

@@ -15,13 +15,13 @@ function App() {
   return (
     <>
     <Router>
-      <Route exact path="/" component={ParticlesJS} />
+      <Route exact path="/michaelsportfolio" component={ParticlesJS} />
       <Navbar />
-        <Route exact path="/" component={Header} /> 
-        <Route exact path="/" component={AboutMe} />
-        <Route exact path="/" component={Projects} />
-        <Route exact path="/" component={Technologies} />
-        <Route exact path="/" component={Contact} />
+        <Route exact path="/michaelsportfolio" component={Header} /> 
+        <Route exact path="/michaelsportfolio" component={AboutMe} />
+        <Route exact path="/michaelsportfolio" component={Projects} />
+        <Route exact path="/michaelsportfolio" component={Technologies} />
+        <Route exact path="/michaelsportfolio" component={Contact} />
         <Route exact path="/contact" component={ContactForm} />
     </Router>
     </>
