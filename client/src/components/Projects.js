@@ -1,10 +1,10 @@
 import React from 'react'
-import noteTakerDemo from "../assets/images/notetakerdemo.gif";
-import codingQuizDemo from "../assets/images/CodingQuizdemo.gif";
-import emeDemo from "../assets/images/EME-Demo.gif";
-import passwordDemo from "../assets/images/password-demo.gif";
-import weatherDashboardDemo from "../assets/images/Weather_Dashboard_Demo.gif";
-import readmeDemo from "../assets/images/readme-demo.gif";
+import noteTakerDemo from "../assets/images/Note-demo-pic.PNG";
+import codingQuizDemo from "../assets/images/Quiz-demo-pic.PNG";
+import emeDemo from "../assets/images/EMS-demo-pic.PNG";
+import passwordDemo from "../assets/images/Password-demo-pic.PNG";
+import weatherDashboardDemo from "../assets/images/Weather-demo-pic.PNG";
+import readmeDemo from "../assets/images/Readme-demo-pic.PNG";
 
 const Projects = () => {
     return (
