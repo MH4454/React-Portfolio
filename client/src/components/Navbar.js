@@ -17,19 +17,19 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                <Link to="/michaelsportfolio/#home" className="nav-link text-white">Home</Link>
+                <Link to="/#home" className="nav-link text-white">Home</Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/michaelsportfolio/#about" className="nav-link text-white">About me</Link>
+                <Link to="/#about" className="nav-link text-white">About me</Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/michaelsportfolio/#projects" className="nav-link text-white">Projects</Link>
+                <Link to="/#projects" className="nav-link text-white">Projects</Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/michaelsportfolio/#technologies" className="nav-link text-white">Technologies</Link>
+                <Link to="/#technologies" className="nav-link text-white">Technologies</Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/" className="nav-link text-white" target="_blank" rel="noreferrer" to={process.env.PUBLIC_URL + "/resume/resume.pdf"}>Resume</Link>
+                <Link className="nav-link text-white" target="_blank" rel="noreferrer" to={process.env.PUBLIC_URL + "/resume/resume.pdf"}>Resume</Link>
                 </li>
                 <li className="nav-item">
                 <Link to="/contact" className="nav-link text-white">Contact</Link>
