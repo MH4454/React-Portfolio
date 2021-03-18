@@ -10,10 +10,6 @@ const app = express();
 
 
 
-app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
-
 
 if (process.env.NODE_ENV === "production") {
   console.log("This Works")
@@ -21,6 +17,12 @@ if (process.env.NODE_ENV === "production") {
   
   //app.use('/static', express.static(path.join(__dirname, '/client/build')));
 }
+
+
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
 
 
 app.listen(PORT, function() {
