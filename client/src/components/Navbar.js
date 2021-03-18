@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Link to="/#technologies" className="nav-link text-white">Technologies</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-white" target="_blank" rel="noreferrer" to={process.env.PUBLIC_URL + "/resume/resume.pdf"}>Resume</Link>
+                <Link className="nav-link text-white" target="_blank" rel="noreferrer" to={"/client/src/resume/Resume.pdf"}>Resume</Link>
                 </li>
                 <li className="nav-item">
                 <Link to="/contact" className="nav-link text-white">Contact</Link>
