@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Link to="/#technologies" className="nav-link text-white">Technologies</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-white" target="_blank" rel="noreferrer" to={"https://drive.google.com/file/d/1uG2vt_1ayDMk27UM8wPQK6PD0ZtFK_Mz/view?usp=sharing"}>Resume</Link>
+                <a className="nav-link text-white" target="_blank" rel="noreferrer" href={"https://drive.google.com/file/d/1uG2vt_1ayDMk27UM8wPQK6PD0ZtFK_Mz/view?usp=sharing"}>Resume</a>
                 </li>
                 <li className="nav-item">
                 <Link to="/contact" className="nav-link text-white">Contact</Link>
