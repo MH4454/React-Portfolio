@@ -1,8 +1,10 @@
 # React-Portfolio ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 
+![demo pic](/client/src/assets/images/Portfolio-demo.PNG)
+
 ## Description
 In this portfolio you will be able to see my 
-glimpse of me ?, my **current skills**, **technologies** I know , **projects** that I have made,<br> ways to _**contact me**_, and my resume which has more detail version of my history. <br> You will be able to see my attention to detail on aesthetic design ? and functionality.
+glimpse of me 🧑, my **current skills**, **technologies** I know , **projects** that I have made,<br> ways to _**contact me**_, and my resume which has more detail version of my history. <br> You will be able to see my attention to detail on aesthetic design ✨ and functionality.
 
 ## Table of Contents:
 * [Installation](#installation)
@@ -29,7 +31,7 @@ After you had installed the dependencies, open the terminal and run the followin
 * Bootstrap
 
 ### Contributing:
-Sadly you can not contribute to my portfolio. This is a road I have to walk alone ?
+Sadly you can not contribute to my portfolio. This is a road I have to walk alone 🤠
 
 ### Questions:
 If you have any questions contact me on [GitHub](https://github.com/MH4454) or contact at MH4454@gmail.com<br>
