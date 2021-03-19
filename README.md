@@ -1,10 +1,12 @@
 # React-Portfolio ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 
-![demo pic](/client/src/assets/images/Portfolio-demo.PNG)
+* Check out the [Deployed Site](https://mhportfolio4454.herokuapp.com/)
 
 ## Description
 In this portfolio you will be able to see my 
 glimpse of me 🧑, my **current skills**, **technologies** I know , **projects** that I have made,<br> ways to _**contact me**_, and my resume which has more detail version of my history. <br> You will be able to see my attention to detail on aesthetic design ✨ and functionality.
+
+![demo pic](/client/src/assets/images/Portfolio-demo.PNG)
 
 ## Table of Contents:
 * [Installation](#installation)
