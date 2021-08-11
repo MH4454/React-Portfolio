@@ -9,10 +9,10 @@ import readmeDemo from "../assets/images/Readme-demo-pic.PNG";
 const Projects = () => {
     return (
         <>
-        <div className="container-fluid grey mt-5 pt-5">
+        <div className="container-fluid grey mt-5 pt-5" id="projects">
             <div className="row pb-5">
                 <div className="col-12">
-                    <h1 className="text-center project-title"  >My Projects</h1>
+                    <h1 className="text-center project-title">My Projects</h1>
                 </div>
             </div>
         </div>
